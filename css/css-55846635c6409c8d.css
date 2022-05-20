@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/css-konachan_340481.jpg) 100% 0 no-repeat;
+    background-size: cover
+}
+
+:root {
+    --primary-color: #5dc9fc;
+    --primary-color-low: #b0e4fc
+}
+
+.idx {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: #ffffffaa
+}
+
+.idx-content {
+    display: absolute;
+    padding-top: 40vh;
+    padding-left: 30%;
+    height: 20vh;
+    width: 40%
+}
+
+.idx-title {
+    width: 100%;
+    height: 3%;
+    background-image: linear-gradient(to right, var(--primary-color), var(--primary-color-low))
+}
+
+.idx-center-line {
+    height: 2px;
+    margin: 2% 3%;
+    background: #000
+}
+
+.idx-block {
+    height: 100%;
+    width: 100%;
+    background: #ffffffaa
+}
+
+.idx-text {
+    margin-top: 4%;
+    margin-left: 3%;
+    color: #000;
+    font-size: x-large
+}
+
+.idx-social {
+    margin-left: 3%;
+    font-size: xx-large
+}
+
+.idx-icon {
+    cursor: pointer;
+    padding-right: 3%;
+    color: #000;
+    transition: color .5s
+}
+
+.idx-icon:hover,
+.type-text {
+    color: var(--primary-color)
+}
+
+.tw_cursor_idle {
+    -webkit-animation-name: tw_cursor_animation;
+    animation-name: tw_cursor_animation;
+    -webkit-animation-duration: .7s;
+    animation-duration: .7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.tw_cursor_typing {
+    opacity: 1
+}
+
+@-webkit-keyframes tw_cursor_animation {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes tw_cursor_animation {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
